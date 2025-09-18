@@ -29,3 +29,19 @@ A simple **Event Scheduler** web application built with **MERN stack** (MongoDB,
 
 ## 📂 Project Structure
 
+backend/
+├─ config/ # Database config
+├─ models/ # Mongoose schemas
+├─ routes/ # API routes
+├─ utils/ # Helper functions (e.g., recurrence generators)
+└─ server.js # Entry point
+
+frontend/
+├─ src/
+│ ├─ api/ # Axios instance
+│ ├─ components/ # Reusable components
+│ ├─ pages/ # EventList, NewEvent, EditEvent, EventOccurrences
+│ └─ App.jsx # Main router
+
+## 📂 Project Structure
+
